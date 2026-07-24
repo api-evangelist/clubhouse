@@ -1,0 +1,16 @@
+generated: '2026-07-18'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: clubhouse.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct 10 13:19:56 2026 GMT
+  hsts: false
+domains:
+- domain: clubhouse.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: none
